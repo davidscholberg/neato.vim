@@ -114,6 +114,7 @@ if exists("g:neato_hl_func_calls")
     augroup lua_syntax_custom
         autocmd!
         autocmd Syntax lua syn match luaCustomFunc /\v[A-Za-z_]\w*\ze\(/
+        autocmd Syntax lua syn match luaCustomFunction /\vfunction\ze\(/ contains=luaFunctionBlock
         autocmd Syntax lua hi! link luaFunc Function
         autocmd Syntax lua hi! link luaCustomFunc Function
         autocmd Syntax lua hi! link luaFunction Keyword
