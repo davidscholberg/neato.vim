@@ -23,10 +23,10 @@ hi! link CursorLineSign SignColumn
 hi! link Debug Special
 hi! link Define PreProc
 hi Delimiter gui=NONE term=NONE cterm=NONE guifg=#e0e2ea guibg=NONE ctermfg=254 ctermbg=NONE
-hi DiffAdd gui=NONE term=NONE cterm=NONE guifg=#eef1f8 guibg=#005523 ctermfg=255 ctermbg=22
-hi DiffChange gui=NONE term=NONE cterm=NONE guifg=#eef1f8 guibg=#4f5258 ctermfg=255 ctermbg=239
-hi DiffDelete gui=bold term=bold cterm=bold guifg=#ffc0b9 guibg=NONE ctermfg=217 ctermbg=NONE
-hi DiffText gui=NONE term=NONE cterm=NONE guifg=#eef1f8 guibg=#007373 ctermfg=255 ctermbg=6
+hi DiffAdd gui=NONE term=NONE cterm=NONE guifg=NONE guibg=#005523 ctermfg=NONE ctermbg=22
+hi DiffChange gui=NONE term=NONE cterm=NONE guifg=NONE guibg=#2C2E33 ctermfg=NONE ctermbg=DarkGrey
+hi DiffDelete gui=bold term=bold cterm=bold guifg=#590008 guibg=NONE ctermfg=52 ctermbg=NONE
+hi DiffText gui=NONE term=NONE cterm=NONE guifg=NONE guibg=#4f5258 ctermfg=NONE ctermbg=239
 hi Directory gui=NONE term=NONE cterm=NONE guifg=#8cf8f7 guibg=NONE ctermfg=123 ctermbg=NONE
 hi! link EndOfBuffer NonText
 hi Error gui=NONE term=NONE cterm=NONE guifg=#eef1f8 guibg=#590008 ctermfg=255 ctermbg=52
