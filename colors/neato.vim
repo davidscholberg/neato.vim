@@ -88,7 +88,7 @@ hi String gui=NONE term=NONE cterm=NONE guifg=#c1fec1 guibg=NONE ctermfg=157 cte
 hi! link Structure Type
 hi! link TabLine StatusLineNC
 hi! link TabLineFill StatusLineNC
-hi TabLineSel gui=bold term=NONE cterm=bold guifg=NONE guibg=NONE ctermfg=NONE ctermbg=NONE
+hi! link TablineSel StatusLine
 hi! link Tag Special
 hi Title gui=bold term=bold cterm=bold guifg=#e0e2ea guibg=NONE ctermfg=254 ctermbg=NONE
 hi Todo gui=bold term=bold cterm=bold guifg=#e0e2ea guibg=NONE ctermfg=254 ctermbg=NONE
